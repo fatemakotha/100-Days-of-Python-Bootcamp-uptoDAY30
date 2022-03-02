@@ -11,3 +11,5 @@ print("Hello" + " " + "Kotha")
 print("Hello " + "Kotha")
 #input function
 input("What is your name?")
+
+print("Hello " + input ("What is your name?"))
