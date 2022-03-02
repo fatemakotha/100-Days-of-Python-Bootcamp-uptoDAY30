@@ -6,4 +6,4 @@ print('print("what to print")')
 
 print("Hello World!\nHellow World!\nHello World!")
 
-print("Hello" + "Kotha")
+print("Hello" + " " + "Kotha")
