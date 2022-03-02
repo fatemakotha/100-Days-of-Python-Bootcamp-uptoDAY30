@@ -8,4 +8,6 @@ print("Hello World!\nHellow World!\nHello World!")
 
 print("Hello" + " " + "Kotha")
 #or
- print("Hello " + "Kotha")
+print("Hello " + "Kotha")
+#input function
+input("What is your name?")
