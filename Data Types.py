@@ -12,7 +12,7 @@ print(123+456) #here 123 & 456 are integers, and are thus added in the result
 #FLOATS = floating point number = decimal numbers
 
 print(3.142)
-
+print(342_45.32)
 #Booleans
 
 True
