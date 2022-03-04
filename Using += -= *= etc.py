@@ -9,3 +9,6 @@ score = 0
 score += 1
 print(score) #gives 1
 #We can use += -= *= and /=
+
+
+print("Your score is:" + str(score))
