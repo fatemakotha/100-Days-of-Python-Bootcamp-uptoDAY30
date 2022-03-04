@@ -6,8 +6,15 @@ print(type(number))
 first_digit = number[0]
 second_digit = number[1]
 
+
+#METHOD 1:  addition = int(first_digit) + int(second_unit)
+
+#OR METHOD 2:
 conv_first_digit = int(first_digit)
 conv_second_digit = int(second_digit)
 
+
+
 addition = conv_first_digit + conv_second_digit
 print(addition)
+
