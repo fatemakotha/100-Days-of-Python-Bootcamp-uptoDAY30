@@ -10,4 +10,6 @@ print(states[-1])#data number 1 from the back is MIAMI
 #Change ITEMS ON LIST
 states[1] = "XYZ"
 print(states)
-
+#ADD an item to the list
+states.append("Kothaland")
+print(states)
