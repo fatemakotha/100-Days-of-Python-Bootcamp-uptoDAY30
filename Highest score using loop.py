@@ -8,6 +8,6 @@ print(student_scores)
 #input 3 2 4 6 
 h_score = 0
 for score in student_scores:
-  if score > h_score#first runs 3 > 0 true, 2 > 3 false, 4 > 3 true and then 6 > 4 true
+  if score > h_score: #first runs 3 > 0 true, 2 > 3 false, 4 > 3 true and then 6 > 4 true
      h_score = score # == means checking a condition, = means it is equal to
 print(f"The Highest score is: {h_score}")
