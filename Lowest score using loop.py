@@ -5,7 +5,7 @@ print(student_scores)
 
 #input 2 3 1 5 
 lowest_score = student_scores[0]#here lowest score is student_scores value number 0, which is 2
-for number in student_scores:
-    if lowest_score > number:
-       lowest_score = number
+for score in student_scores:
+    if lowest_score > score:
+       lowest_score = score
 print(lowest_score)
