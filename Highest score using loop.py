@@ -4,7 +4,7 @@ for n in range(0, len(student_scores)):#here the range starts from 0 and ends at
   student_scores[n] = int(student_scores[n])#converts each of the resulting strings to a number
 print(student_scores)
 
-# print(min(student_scores))
+# print(max(student_scores))
 #input 3 2 4 6 
 h_score = 0
 for score in student_scores:
