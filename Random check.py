@@ -1,1 +1,1 @@
-Randomly checking replit push
+print("Randomly checking replit push")
