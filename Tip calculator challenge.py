@@ -11,7 +11,7 @@ people = int(input("How many people will split the people?"))
 #For 10%, we use 1.12, for 12% 1.12, for 15% 1.15
 
 
-bill_with_tip = tip / 100 * bill + bill #entire bill along with entire tip for all people together
+bill_with_tip = tip / 100 * bill + bill #entire bill along with entire tip for all people together #/100 turns tip into 0.1, 0.2 or 1.15, this decimal no times the tip is the full tip. Then we add this tip that we calculated from the bill, to the actual bill
 
 print(bill_with_tip)
 
