@@ -15,20 +15,20 @@ password = ""
 #assume nr_letters = 4
 for char in range(1, nr_letters + 1): #the range is 4, including 4, but if we use only nr_letters that does not include 4, thus we add 1, to make it include 4
     random_char = random.choice(letters)
-    password = password + random_char #starts with nothing as password = "", then keeps adding letters as string oncatenation
+    password += random_char #starts with nothing as password = "", then keeps adding letters as string oncatenation
 print(password)
 
 #assume nr_numbers = 2
 for char in range(1, nr_numbers + 1): #the range is 2, including 4, but if we use only nr_letters that does not include 4, thus we add 1, to make it include 4
     random_char = random.choice(numbers)
-    password = password + random_char #starts with nothing as password = "", then keeps adding letters as string oncatenation
+    password += random_char #starts with nothing as password = "", then keeps adding letters as string oncatenation
 print(password)
 
 
 #assume nr_symbols = 2
 for char in range(1, nr_symbols + 1): #the range starts from 0 and ends at 4, including 4, but if we use only nr_letters that does not include 4, thus we add 1, to make it include 4
     random_char = random.choice(symbols)
-    password = password + random_char #starts with nothing as password = "", then keeps adding letters as string oncatenation
+    password += random_char #starts with nothing as password = "", then keeps adding letters as string oncatenation
 print(password)
 
 #prints:
