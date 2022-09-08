@@ -9,3 +9,10 @@ print(min(student_scores)) #prints: 55
 
 #But we don't want to use the max or min function
 print("..........METHOD 2.........")
+
+highest_score = 0
+for score in student_scores:
+    if score > highest_score:   #checks each score against another
+        highest_score = score #assigns the highest score to highest_score
+    
+print(f"The hightest score is: {highest_score}")
