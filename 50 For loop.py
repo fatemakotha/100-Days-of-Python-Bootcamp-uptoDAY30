@@ -20,3 +20,4 @@ for fruit in fruits:
     # Pear Pie 
     
     # ***ALL OF THIS IS EXECUTED AS IT IS INSIDE THE for LOOP
+    
