@@ -36,7 +36,8 @@ else:
     #the next line of command only runs if you choose a number between 0 to 2
     computer_choice = random.randint(0, 2)
     print("Computer chose:")
-    print(game_images[computer_choice])
+    print(game_images[computer_choice]) #Here if computer_choice is 2, that prints 2nd index picture in game_images which is the scissors
+  
 
 
     if user_choice == 0 and computer_choice == 2:

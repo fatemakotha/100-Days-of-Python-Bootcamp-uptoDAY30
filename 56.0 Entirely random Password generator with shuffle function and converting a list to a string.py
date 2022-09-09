@@ -38,4 +38,4 @@ for each_character in password_list:
     final_password += each_character
 print(final_password)
     
-print(f"YOUR FINAL PASSWORD IS: {final_password}")
+print(f"YOUR FINAL PASSWORD IS: {final_password}") #prints: YOUR FINAL PASSWORD IS: b)13G+og
