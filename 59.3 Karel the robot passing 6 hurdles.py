@@ -22,4 +22,4 @@ def no_of_steps():
     step_topass_each_hurdle()
     step_topass_each_hurdle()
 no_of_steps() 
-#oUTPUT: kAREL passes 6 hurdles 
+#Output: kAREL passes 6 hurdles 
