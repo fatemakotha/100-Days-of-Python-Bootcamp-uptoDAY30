@@ -21,10 +21,19 @@ while not end_of_game : #while not False:
     guess = input("Guess a letter: ").lower()
     
     for position in range(len(chosen_word)): #if chosen word is camel, range is 0-4
-        letter = chosen_word[position] #i.e. letter is the chosen word' 0th index
+        letter = chosen_word[position] #i.e. letter is the chosen word's 0th index #defining letter variable
         if letter == guess: #if letter is equal to guess, i.e. c=c, then:
             display[position] = letter #replace the display's position 0 with the letter c
-    print(display)
+            print(display) #prints: ['_', '_', '_', '_', 'l']
+        # print(display) if unindented prints the following:
+        # ['_', '_', '_', '_', '_', '_', '_', '_']
+        # ['_', '_', '_', '_', '_', '_', '_', '_']
+        # ['_', '_', '_', '_', '_', '_', '_', '_']
+        # ['_', '_', '_', '_', '_', '_', '_', '_']
+        # ['_', '_', '_', '_', '_', '_', '_', '_']
+        # ['_', '_', '_', '_', '_', '_', '_', '_']
+        # ['_', '_', '_', '_', '_', '_', '_', '_']
+        # ['_', '_', '_', '_', '_', '_', '_', 'k']
 
 if "_" not in display:
     print("You have won")
