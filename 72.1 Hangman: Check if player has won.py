@@ -19,12 +19,14 @@ while not end_of_game : #which means while end_of_game is False, which mean whil
     guess = input("Guess a letter: ").lower()
     
     #Check guessed letter
-    for position in range(word_length):
-        letter = chosen_word[position]
+    for position in range(word_length): ##if chosen word is camel, range is 0-4
+        letter = chosen_word[position] # #i.e. letter is the chosen word' 0th index
         print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
-        if letter == guess:
-            display[position] = letter
+        if letter == guess: #if letter is equal to guess, i.e. c=c, then:
+            display[position] = letter ##replace the display's position 0 with the letter c
     
     print(display)
-if "_" not in display:
+        #Check if there are no more "_" left in 'display'. Then all letters have been guessed.
+    if "_" not in display: #when there is no _ in display we set the game to end:
+        end_of_game = True #game has ended
     print("You have won")
