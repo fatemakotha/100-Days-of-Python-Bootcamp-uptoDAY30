@@ -29,4 +29,4 @@ while not end_of_game : #which means while end_of_game is False, which mean whil
         #Check if there are no more "_" left in 'display'. Then all letters have been guessed.
     if "_" not in display: #when there is no _ in display we set the game to end:
         end_of_game = True #game has ended
-    print("You have won")
+        print("You have won")
