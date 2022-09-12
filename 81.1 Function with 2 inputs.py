@@ -17,7 +17,7 @@ greet_with_name("Kotha")
 def greet_with(name, location): #it has 2 inputs, the name and the loaction
     print(f"Hello {name}")
     print(f"What is it like in {location}?")
-greet_with("Kotha", "Dhaka") #value of PARAMETER1 named name is set to 1st value "Kotha" and value of PARAMETER2 named location is set to the 2nd value "Dhaka"
+greet_with("Kotha", "Dhaka") #value of PARAMETER1 named name is set to 1st value "Kotha" and value of PARAMETER2 named location is set to the 2nd value "Dhaka" ***THIS IS CALLED POSITIONAL ARGUEMENTS
 #prints:
 # Hello Kotha
 # What is it like in Dhaka?
