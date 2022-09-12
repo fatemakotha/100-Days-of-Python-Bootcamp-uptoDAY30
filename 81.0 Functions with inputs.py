@@ -20,3 +20,4 @@ greet_with_name("Kotha") #this assignes "Kotha" to the variable name
 # How do you do? Kotha 
 
 #*** HERE greet_with_name is the PARAMETER and "Kotha" is the ARGUEMENT
+#*** PARAMETER is the name of the data being passed into the function greet_with_name, AND the ARGUEMENT is the value of the data, which is "Kotha"
