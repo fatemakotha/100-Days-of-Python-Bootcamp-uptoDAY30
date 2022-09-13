@@ -16,6 +16,7 @@ for student in student_scores:
     # score = 99
     if score > 90: #if 99 > 90
         student_grades[student] = "Outstanding!" #as 99 > 90, student_grades[Hermione] is set to "Outstanding!"
+                                                 #the KEY stays same, BUT the VALUE is changed from 99 to "Outstanding"
     elif score > 80:
         student_grades[student] = "Exceeds Expectations"
     elif score > 70:
