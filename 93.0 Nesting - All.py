@@ -81,4 +81,9 @@ travel_log = [
 },
 ]
 print(travel_log)
+print("\n")
 #prints: [{'country': 'France', 'cities_visited': ['Paris', 'Lille', 'Dijon'], 'total_visits': 12}, {'country': 'Germany', 'cities_visited': ['Berlin', 'Hamburg', 'Stuttgart'], 'total_visits': 5}]
+
+print(travel_log[0]) # *** pulls travel_log's 0th index and prints it's value
+#prints:
+# {'country': 'France', 'cities_visited': ['Paris', 'Lille', 'Dijon'], 'total_visits': 12}
