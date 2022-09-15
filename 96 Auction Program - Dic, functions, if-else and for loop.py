@@ -3,7 +3,7 @@
 bids = {}
 bidding_finished = False
 
-def find_highest_bidder(bidding_record): 
+def find_highest_bidder(bidding_record): # bidding_record = {"Angela": 123, "James": 321}
   highest_bid = 0
   winner = ""
   # bidding_record = {"Angela": 123, "James": 321}
