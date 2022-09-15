@@ -7,7 +7,8 @@ def find_highest_bidder(bidding_record): # bidding_record = {"Angela": 123, "Jam
   highest_bid = 0
   winner = ""
   # bidding_record = {"Angela": 123, "James": 321}
-  for bidder in bidding_record: 
+  for bidder in bidding_record: #bidder is "Angela", then bidder is "James"
+  #for "Angela" in {"Angela": 123, "James": 321}:
     bid_amount = bidding_record[bidder] #bid amount is a new variable set to the value of the KEY "Angela" which is 123
    #bid_amount = {"Angela": 123, "James": 321}[Angela]
    #bid_amount = 123
