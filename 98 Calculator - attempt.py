@@ -3,3 +3,5 @@ second_num = int(input("Enter the 2nd number: "))
 operator = input("Chose the operator:\n +, -, * or /")
 
 dic = {}
+dic["first_num"] = first_num
+dic["second_num"] = second_num
