@@ -11,4 +11,4 @@ if operator == "+":
     ans1 = dic["first_num"] + dic["second_num"] #targets first and second value from the dic
     print(ans1)
 elif operator == "-":
-    
+    print("minus")
