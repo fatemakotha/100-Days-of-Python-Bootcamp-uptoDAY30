@@ -1,3 +1,5 @@
+import math 
+
 first_num = int(input("Enter the 2st number: ")) #input 8 here
 second_num = int(input("Enter the 2nd number: ")) #input 2 here
 operator = input("Chose the operator:\n +, -, * or /")
