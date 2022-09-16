@@ -1,4 +1,19 @@
 import math #imported math
+logo = """|  _________________  |
+| | KO           0. | |
+| |_________________| |
+|  ___ ___ ___   ___  |
+| | 7 | 8 | 9 | | + | |
+| |___|___|___| |___| |
+| | 4 | 5 | 6 | | - | |
+| |___|___|___| |___| |
+| | 1 | 2 | 3 | | x | |
+| |___|___|___| |___| |
+| | . | 0 | = | | / | |
+| |___|___|___| |___| |
+|_____________________|
+"""
+                        
 def calculation(): #defined the actions for calculation
     first_num = int(input("Enter the 1st number: ")) #input 8 here
     operator = input("Chose the operator:\n +, -, * or /: ") # + - * / are all strings here
@@ -23,9 +38,12 @@ def calculation(): #defined the actions for calculation
         print(ans4)
     else:
         print(f"There is no operator here as: {operator}")
-calculation()
+
+print(logo) #STARTS FROM HERE **********
+calculation() 
 cont_inue = input("Do you wish to go again? Type yes or no: ").lower() # .lower() changes the input string to lowercase
 end = False #end is set to False
+
 while not end: #which means while not False = while true, run the loop below:
     if cont_inue == "yes":
         calculation() #if cont_inue == "yes" then call the calculation() function
