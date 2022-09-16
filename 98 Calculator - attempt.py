@@ -12,3 +12,4 @@ if operator == "+":
     print(ans1)
 elif operator == "-":
     print("minus")
+elif operator == "*":
