@@ -13,3 +13,4 @@ if operator == "+":
 elif operator == "-":
     print("minus")
 elif operator == "*":
+    print("multiply")
