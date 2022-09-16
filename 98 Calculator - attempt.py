@@ -1,6 +1,6 @@
 import math 
 
-first_num = int(input("Enter the 2st number: ")) #input 8 here
+first_num = int(input("Enter the 1st number: ")) #input 8 here
 operator = input("Chose the operator:\n +, -, * or /")
 second_num = int(input("Enter the 2nd number: ")) #input 2 here
 
