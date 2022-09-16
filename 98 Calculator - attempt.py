@@ -7,7 +7,7 @@ second_num = int(input("Enter the 2nd number: ")) #input 2 here
 dic = {}
 dic["first_num"] = first_num
 dic["second_num"] = second_num
-print(dic) #prints:  {'first_num': 5, 'second_num': 2}
+print(f"The dictionary created is: \n {dic}")
 
 if operator == "+":
     ans1 = dic["first_num"] + dic["second_num"] #targets first and second value from the dic
