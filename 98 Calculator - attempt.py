@@ -14,3 +14,4 @@ elif operator == "-":
     print("minus")
 elif operator == "*":
     print("multiply")
+elif operator == "-":
