@@ -1,7 +1,7 @@
 import math 
 
 first_num = int(input("Enter the 1st number: ")) #input 8 here
-operator = input("Chose the operator:\n +, -, * or /")
+operator = input("Chose the operator:\n +, -, * or /") # + - * / are all strings here
 second_num = int(input("Enter the 2nd number: ")) #input 2 here
 
 dic = {}
