@@ -24,4 +24,4 @@ elif operator == "/":
 else:
     print("sad")
 
-cont_inue = input("Do you wish to go again? Type yes or no: ").lower()
+cont_inue = input("Do you wish to go again? Type yes or no: ").lower() # .lower() changes the input string to lowercase 
