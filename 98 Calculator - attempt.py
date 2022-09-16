@@ -15,9 +15,9 @@ logo = """|  _________________  |
 """
                         
 def calculation(): #defined the actions for calculation
-    first_num = int(input("Enter the 1st number: ")) #input 8 here
+    first_num = float(input("Enter the 1st number: ")) #input 8 here
     operator = input("Chose the operator:\n +, -, * or /: ") # + - * / are all strings here
-    second_num = int(input("Enter the 2nd number: ")) #input 2 here
+    second_num = float(input("Enter the 2nd number: ")) #input 2 here
     
     dic = {} #created an empty dictionary
     dic["first_num"] = first_num #created 1st item in dic
