@@ -28,4 +28,4 @@ cont_inue = input("Do you wish to go again? Type yes or no: ").lower() # .lower(
 if cont_inue == "yes":
     calculation()
 elif cont_inue == "no":
-    print("Thanks for using my CALCULATOR")
+    print("Thanks for using my CALCULATOR ❤️")
