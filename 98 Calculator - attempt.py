@@ -1,5 +1,5 @@
 import math 
-def calculation()
+def calculation():
     first_num = int(input("Enter the 1st number: ")) #input 8 here
     operator = input("Chose the operator:\n +, -, * or /: ") # + - * / are all strings here
     second_num = int(input("Enter the 2nd number: ")) #input 2 here
@@ -23,7 +23,7 @@ def calculation()
         print(ans4)
     else:
         print("sad")
-
+calculation()
 cont_inue = input("Do you wish to go again? Type yes or no: ").lower() # .lower() changes the input string to lowercase
 if cont_inue == "yes":
     calculation()
