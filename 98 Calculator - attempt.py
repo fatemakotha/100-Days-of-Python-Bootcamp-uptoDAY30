@@ -17,7 +17,7 @@ elif operator == "*":
     ans3 = dic["first_num"] * dic["second_num"]
     print(ans3)
 elif operator == "-":
-    ans4 = dic["first_num"] + dic["second_num"] 
+    ans4 = dic["first_num"] / dic["second_num"] 
     print(ans4)
 else:
     print("sad")
