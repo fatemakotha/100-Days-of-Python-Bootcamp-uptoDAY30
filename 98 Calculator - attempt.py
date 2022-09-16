@@ -27,5 +27,6 @@ calculation()
 cont_inue = input("Do you wish to go again? Type yes or no: ").lower() # .lower() changes the input string to lowercase
 if cont_inue == "yes":
     calculation()
+    cont_inue = input("Do you wish to go again? Type yes or no: ").lower() # .lower() changes the  input string to lowercase
 elif cont_inue == "no":
     print("Thanks for using my CALCULATOR ❤️")
