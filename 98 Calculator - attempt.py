@@ -6,3 +6,8 @@ dic = {}
 dic["first_num"] = first_num
 dic["second_num"] = second_num
 print(dic) #prints:  {'first_num': 5, 'second_num': 2}
+
+if operator == "+":
+    print("OK")
+else: 
+    print("sad")
