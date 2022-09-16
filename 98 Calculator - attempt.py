@@ -1,4 +1,4 @@
-import math 
+import math #imported math
 def calculation():
     first_num = int(input("Enter the 1st number: ")) #input 8 here
     operator = input("Chose the operator:\n +, -, * or /: ") # + - * / are all strings here
