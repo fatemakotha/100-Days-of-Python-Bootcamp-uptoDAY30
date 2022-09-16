@@ -25,4 +25,3 @@ else:
     print("sad")
 
 cont_inue = input("Do you wish to go again? Type yes or no: ").lower() # .lower() changes the input string to lowercase
-print(cont_inue)
