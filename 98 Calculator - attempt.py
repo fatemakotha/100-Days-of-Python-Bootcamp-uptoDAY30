@@ -17,3 +17,4 @@ elif operator == "*":
 elif operator == "-":
     print("divide")
 else:
+    print("sad")
