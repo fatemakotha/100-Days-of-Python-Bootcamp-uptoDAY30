@@ -4,6 +4,6 @@ def format_name(f_name, l_name):
     #** In this case the next lines of the code which turns the words to TITLE, are not executed,
     formatted_f_name = f_name.title()
     formatted_l_name = l_name.title()
-    return f"{Result: formatted_f_name} {formatted_l_name}" # *** return means this is the end of a function and any code written after is will not run
+    return f"Result: {formatted_f_name} {formatted_l_name}" # *** return means this is the end of a function and any code written after is will not run
     
 print(format_name(input("What is your first name?"), input("What is your last name?")))
