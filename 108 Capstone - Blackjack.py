@@ -14,3 +14,9 @@ for _ in range(0,2): #for two indexes: 0th and 1st
     computer_cards.append(deal_card()) #add one card to computer cards
 print(f" User cards: {user_cards} and Computer cards: {computer_cards}")
 # prints: User cards: [11, 10] and Computer cards: [4, 10]   
+
+# PART 3
+def calculate_score(cards):
+    score = sum(cards)
+    print(score) #prints: 95 which is addition of all cards in the deck
+calculate_score(cards)
