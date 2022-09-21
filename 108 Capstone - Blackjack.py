@@ -25,7 +25,7 @@ def calculate_score(user_cards, computer_cards):
     #prints: USER SCORE: 22 and COMPUTER SCORE: 16
     def repeat():
         while not is_game_over: 
-            if 11 in user_cards and 10 in user_cards and user_cards == 2:
+            if 11 in user_cards and 10 in user_cards and len(user_cards) == 2:
                 is_game_over = True
                 return 0
             if 11 in computer_cards and 10 in computer_cards and computer_cards == 2:
