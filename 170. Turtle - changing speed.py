@@ -9,7 +9,8 @@ cutu = Turtle()
 cutu.shape("turtle") #makes the arrow change into a turtle
 cutu.color("dark cyan")
 cutu.pensize(10) #increases the width of the pen
-cutu.speed(10) #changes the speed of the turtle. 0 is fastest, 10 is fast, 6 is normal, 3 is slow, 1 is slowest *** 
+#CHANGING the SPEED of the turtle. 0 OR "fastest", 10 OR "fast", 6 OR "normal", 3 OR "slow", 1 OR "slowest" ***
+cutu.speed(10) #we can either insert the int or the string. i.e. 0 or "fastest"
 
 colours = ["blue", "red", "pink", "black", "purple", "green", "yellow"]
 
@@ -21,6 +22,12 @@ for _ in range(20):
     cutu.pencolor(random.choice(colours))
     cutu.forward(30) #moves 30 units
     cutu.setheading(random.choice(directions)) #changes the left&right to the degrees in the direction list
+
+
+
+
+
+
 
 
 
