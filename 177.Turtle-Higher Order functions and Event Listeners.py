@@ -12,7 +12,7 @@ def move_forwards():
 
 
 screen.listen() #starts listening
-screen.onkey(key="space", fun=move_forwards) #calls the move forward function when spacebar is hit
+screen.onkey(key="space", fun=move_forwards) #calls the move forward function when spacebar is hit #HIGHER ORDER FUNCTION***
 
 
 
