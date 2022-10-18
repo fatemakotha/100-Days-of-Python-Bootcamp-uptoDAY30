@@ -7,4 +7,7 @@ print(newww_list) #prints: [4, 5, 6, 7]
 #EXAMPLE 5: prints name if it has less that 5 alophabets
 names = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
 short_names = [name for name in names if len(name) <= 5]
+long_names = [name.upper() for name in names if len(name) >= 5]
+
 print(short_names) #prints: ['Alex', 'Beth', 'Dave']
+print(long_names) #prints: ['CAROLINE', 'ELEANOR', 'FREDDIE']
